@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="container px-[100px] py-8 mx-auto">
       <div className="flex justify-between items-center">
-        <div className="bg-black p-4 rounded-full w-[50px] h-[50px] flex items-center">
+        <div className="bg-gray-700 p-4 rounded-full w-[50px] h-[50px] flex items-center">
           <img src={logo} alt="Logo" />
         </div>
         <div className="">
@@ -22,7 +22,7 @@ export default function Navbar() {
             })}
           </ul>
         </div>
-        <div className="flex align-middle">
+        <div className="flex align-middle gap-x[30px]">
           <SecondButton />
           <Button />
         </div>

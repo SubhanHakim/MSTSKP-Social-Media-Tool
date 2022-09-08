@@ -12,7 +12,7 @@ export const Navdata = [
     path: "/reasons",
   },
   {
-    title: "Alternativ",
-    path: "/alternativ",
+    title: "Alternative",
+    path: "/alternative",
   },
 ];
