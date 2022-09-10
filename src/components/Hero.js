@@ -1,5 +1,5 @@
 import React from "react";
-import PrimaryButton from "./PrimaryButton";
+import PrimaryButton from "./button/PrimaryButton";
 
 // import image
 import blur1 from "../assets/sosmed/blur1.png";
@@ -9,6 +9,7 @@ import facebook from "../assets/sosmed/facebook.png";
 import instagram from "../assets/sosmed/instagram.png";
 import tiktok from "../assets/sosmed/tiktok.png";
 import heroSection from "../assets/sosmed/hero-img.png";
+import NoBgButton from "./button/NoBgButton";
 
 function Hero() {
   return (
@@ -19,7 +20,7 @@ function Hero() {
         <p className="text-white w-[573px] mb-[60px]">Adalah benar apa yang kamu baca barusan. Tool yang mainstream akan memberikan kamu pelbagai insight, karena kami anti-mainstream maka kami akan melakukan sebaliknya.</p>
         <div className="flex gap-x-4">
           <PrimaryButton />
-          <PrimaryButton />
+          <NoBgButton />
         </div>
         <img src={blur1} alt="blur-img" className="absolute left-10" />
         <img src={blur2} alt="blur-img" className="absolute right-20 top-0" />

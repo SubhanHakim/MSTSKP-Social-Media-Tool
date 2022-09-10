@@ -4,3 +4,8 @@
   background-size: cover;
   width: 100%;
 }
+
+.textcolor {
+  color: red;
+  opacity: 60%;
+}
