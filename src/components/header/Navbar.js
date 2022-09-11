@@ -2,8 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Navdata } from "../../data/Navdata";
 import logo from "../../logo.png";
-import Button from "../button/Button";
-import SecondButton from "../button/SecondButton";
+import NavBtn from "../button/NavBtn";
 
 export default function Navbar() {
   const navLinkStyle = ({ isActive }) => {
@@ -33,8 +32,8 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="flex align-middle gap-x[30px]">
-          <SecondButton />
-          <Button />
+          <NavBtn color="Transparent">Mendaftar</NavBtn>
+          <NavBtn>Login</NavBtn>
         </div>
       </div>
     </nav>
