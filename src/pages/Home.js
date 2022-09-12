@@ -1,5 +1,5 @@
 import React from "react";
-import BgHero from "../components/background/BgHero";
+// import BgHero from "../components/background/BgHero";
 import Navbar from "../components/header/Navbar";
 import Hero from "../components/Hero";
 
@@ -8,7 +8,6 @@ function Home() {
     <div className="">
       <Navbar />
       <Hero />
-      <BgHero />
     </div>
   );
 }
