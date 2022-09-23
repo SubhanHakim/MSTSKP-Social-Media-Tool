@@ -5,7 +5,7 @@ import { InsightData } from "../data/InsightData";
 
 function Insight() {
   return (
-    <div>
+    <div className="container px-[100px] py-8 mx-auto h-screen">
       <div className="text-black grid grid-cols-2 items-center justify-center">
         <div className="w-[475px]">
           <div className="flex items-center gap-x-[10px] mb-[10px]">

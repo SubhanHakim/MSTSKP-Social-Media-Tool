@@ -6,7 +6,7 @@ module.exports = {
         "bg-color": "rgba(255, 255, 255, 0.08)",
       },
       backgroundImage: {
-        "hero-pattern": "url('./assets/bg3.png')",
+        "bg-pattern": "url('./assets/bg3.png')",
         "bg-primary": "url('./assets/bg.png')",
       },
     },

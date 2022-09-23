@@ -3,7 +3,7 @@ import { DescData, DescDataCard } from "../data/DescData";
 
 function NoInsight() {
   return (
-    <div className="mt-52 h-screen">
+    <div className="h-screen container px-[100px] py-8 mx-auto">
       <div className="flex justify-center text-center">
         {DescData.map((item, index) => {
           return (

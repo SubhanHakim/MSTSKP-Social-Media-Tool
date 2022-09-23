@@ -2,6 +2,7 @@ import React from "react";
 import PrimaryButton from "../components/button/PrimaryButton";
 import ImgSosmed from "../components/background/ImgSosmed";
 import { AiOutlinePlayCircle } from "react-icons/ai";
+import heroSection from "../assets/sosmed/hero-img.png";
 
 function Content() {
   return (
@@ -18,6 +19,9 @@ function Content() {
           </PrimaryButton>
         </div>
         <ImgSosmed />
+      </div>
+      <div className="flex justify-center mt-32">
+        <img src={heroSection} className="" alt="heroImage" />
       </div>
     </div>
   );
