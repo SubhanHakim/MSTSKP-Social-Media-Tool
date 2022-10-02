@@ -1,5 +1,6 @@
 import React from "react";
 import Content from "../pages/Content";
+import Footer from "../pages/Footer";
 // import image
 
 // import NoBgButton from "./button/NoBgButton";
@@ -15,6 +16,7 @@ function Hero() {
         <Insight />
         <NoInsight />
         <Tool />
+        <Footer />
       </div>
     </div>
   );
